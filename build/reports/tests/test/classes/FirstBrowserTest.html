@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class FirstBrowserTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class FirstBrowserTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; FirstBrowserTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.586s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testLockedUserAuthorization</td>
+<td class="success">0.202s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSuccessfulAuthorization</td>
+<td class="success">0.190s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWrongPasswordAuthorization</td>
+<td class="success">0.194s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 54847
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1658754195.996][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND InitSession {
+   &quot;capabilities&quot;: {
+      &quot;firstMatch&quot;: [ {
+         &quot;browserName&quot;: &quot;chrome&quot;,
+         &quot;goog:chromeOptions&quot;: {
+            &quot;args&quot;: [ &quot;--window-size=1920,1080&quot; ],
+            &quot;extensions&quot;: [  ]
+         }
+      } ]
+   },
+   &quot;desiredCapabilities&quot;: {
+      &quot;browserName&quot;: &quot;chrome&quot;,
+      &quot;goog:chromeOptions&quot;: {
+         &quot;args&quot;: [ &quot;--window-size=1920,1080&quot; ],
+         &quot;extensions&quot;: [  ]
+      }
+   }
+}
+[1658754195.999][INFO]: Populating Preferences file: {
+   &quot;alternate_error_pages&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;autofill&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;browser&quot;: {
+      &quot;check_default_browser&quot;: false
+   },
+   &quot;distribution&quot;: {
+      &quot;import_bookmarks&quot;: false,
+      &quot;import_history&quot;: false,
+      &quot;import_search_engine&quot;: false,
+      &quot;make_chrome_default_for_user&quot;: false,
+      &quot;skip_first_run_ui&quot;: true
+   },
+   &quot;dns_prefetching&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;profile&quot;: {
+      &quot;content_settings&quot;: {
+         &quot;pattern_pairs&quot;: {
+            &quot;https://*,*&quot;: {
+               &quot;media-stream&quot;: {
+                  &quot;audio&quot;: &quot;Default&quot;,
+                  &quot;video&quot;: &quot;Default&quot;
+               }
+            }
+         }
+      },
+      &quot;default_content_setting_values&quot;: {
+         &quot;geolocation&quot;: 1
+      },
+      &quot;default_content_settings&quot;: {
+         &quot;geolocation&quot;: 1,
+         &quot;mouselock&quot;: 1,
+         &quot;notifications&quot;: 1,
+         &quot;popups&quot;: 1,
+         &quot;ppapi-broker&quot;: 1
+      },
+      &quot;password_manager_enabled&quot;: false
+   },
+   &quot;safebrowsing&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;search&quot;: {
+      &quot;suggest_enabled&quot;: false
+   },
+   &quot;translate&quot;: {
+      &quot;enabled&quot;: false
+   }
+}
+[1658754195.999][INFO]: Populating Local State file: {
+   &quot;background_mode&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;ssl&quot;: {
+      &quot;rev_checking&quot;: {
+         &quot;enabled&quot;: false
+      }
+   }
+}
+[1658754196.001][INFO]: Launching chrome: &quot;C:\Program Files\Google\Chrome\Application\chrome.exe&quot; --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=&quot;C:\Users\kabai\AppData\Local\Temp\scoped_dir18088_41015719&quot; --window-size=1920,1080 data:,
+[1658754196.450][INFO]: resolved localhost to [&quot;::1&quot;,&quot;127.0.0.1&quot;]
+[1658754196.455][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE InitSession {
+   &quot;capabilities&quot;: {
+      &quot;acceptInsecureCerts&quot;: false,
+      &quot;browserName&quot;: &quot;chrome&quot;,
+      &quot;browserVersion&quot;: &quot;103.0.5060.134&quot;,
+      &quot;chrome&quot;: {
+         &quot;chromedriverVersion&quot;: &quot;103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262})&quot;,
+         &quot;userDataDir&quot;: &quot;C:\\Users\\kabai\\AppData\\Local\\Temp\\scoped_dir18088_41015719&quot;
+      },
+      &quot;goog:chromeOptions&quot;: {
+         &quot;debuggerAddress&quot;: &quot;localhost:51889&quot;
+      },
+      &quot;networkConnectionEnabled&quot;: false,
+      &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+      &quot;platformName&quot;: &quot;windows&quot;,
+      &quot;proxy&quot;: {
+      },
+      &quot;setWindowRect&quot;: true,
+      &quot;strictFileInteractability&quot;: false,
+      &quot;timeouts&quot;: {
+         &quot;implicit&quot;: 0,
+         &quot;pageLoad&quot;: 300000,
+         &quot;script&quot;: 30000
+      },
+      &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+      &quot;webauthn:extension:credBlob&quot;: true,
+      &quot;webauthn:extension:largeBlob&quot;: true,
+      &quot;webauthn:virtualAuthenticators&quot;: true
+   },
+   &quot;sessionId&quot;: &quot;a88e9e15fb0066b03bef7f27b25ed03e&quot;
+}
+Jul 25, 2022 9:03:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 25, 2022 9:03:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+[1658754196.550][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND Navigate {
+   &quot;url&quot;: &quot;https://www.saucedemo.com/&quot;
+}
+[1658754196.550][INFO]: Waiting for pending navigations...
+[1658754196.552][INFO]: Done waiting for pending navigations. Status: ok
+[1658754196.686][INFO]: Waiting for pending navigations...
+[1658754196.877][INFO]: Done waiting for pending navigations. Status: ok
+[1658754196.877][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE Navigate
+[1658754196.883][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND FindElement {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;#user\\-name&quot;
+}
+[1658754196.883][INFO]: Waiting for pending navigations...
+[1658754196.884][INFO]: Done waiting for pending navigations. Status: ok
+[1658754196.891][INFO]: Waiting for pending navigations...
+[1658754196.891][INFO]: Done waiting for pending navigations. Status: ok
+[1658754196.891][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;8ac9cbae-91a2-48c3-a598-bf6a932271c2&quot;
+}
+[1658754196.899][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND TypeElement {
+   &quot;id&quot;: &quot;8ac9cbae-91a2-48c3-a598-bf6a932271c2&quot;,
+   &quot;text&quot;: &quot;locked_out_user&quot;,
+   &quot;value&quot;: [ &quot;l&quot;, &quot;o&quot;, &quot;c&quot;, &quot;k&quot;, &quot;e&quot;, &quot;d&quot;, &quot;_&quot;, &quot;o&quot;, &quot;u&quot;, &quot;t&quot;, &quot;_&quot;, &quot;u&quot;, &quot;s&quot;, &quot;e&quot;, &quot;r&quot; ]
+}
+[1658754196.899][INFO]: Waiting for pending navigations...
+[1658754196.899][INFO]: Done waiting for pending navigations. Status: ok
+[1658754196.946][INFO]: Waiting for pending navigations...
+[1658754196.949][INFO]: Done waiting for pending navigations. Status: ok
+[1658754196.949][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE TypeElement
+[1658754196.952][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND FindElement {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;#password&quot;
+}
+[1658754196.952][INFO]: Waiting for pending navigations...
+[1658754196.952][INFO]: Done waiting for pending navigations. Status: ok
+[1658754196.958][INFO]: Waiting for pending navigations...
+[1658754196.959][INFO]: Done waiting for pending navigations. Status: ok
+[1658754196.959][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;09a5c615-04b2-4a2c-b331-165fa23fe581&quot;
+}
+[1658754196.963][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND TypeElement {
+   &quot;id&quot;: &quot;09a5c615-04b2-4a2c-b331-165fa23fe581&quot;,
+   &quot;text&quot;: &quot;secret_sauce&quot;,
+   &quot;value&quot;: [ &quot;s&quot;, &quot;e&quot;, &quot;c&quot;, &quot;r&quot;, &quot;e&quot;, &quot;t&quot;, &quot;_&quot;, &quot;s&quot;, &quot;a&quot;, &quot;u&quot;, &quot;c&quot;, &quot;e&quot; ]
+}
+[1658754196.963][INFO]: Waiting for pending navigations...
+[1658754196.963][INFO]: Done waiting for pending navigations. Status: ok
+[1658754197.001][INFO]: Waiting for pending navigations...
+[1658754197.002][INFO]: Done waiting for pending navigations. Status: ok
+[1658754197.002][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE TypeElement
+[1658754197.005][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND FindElement {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;#login\\-button&quot;
+}
+[1658754197.005][INFO]: Waiting for pending navigations...
+[1658754197.006][INFO]: Done waiting for pending navigations. Status: ok
+[1658754197.012][INFO]: Waiting for pending navigations...
+[1658754197.013][INFO]: Done waiting for pending navigations. Status: ok
+[1658754197.013][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;8c2c0b8f-f168-4fdd-ace2-2c5dc65557e7&quot;
+}
+[1658754197.016][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND ClickElement {
+   &quot;id&quot;: &quot;8c2c0b8f-f168-4fdd-ace2-2c5dc65557e7&quot;
+}
+[1658754197.016][INFO]: Waiting for pending navigations...
+[1658754197.016][INFO]: Done waiting for pending navigations. Status: ok
+[1658754197.054][INFO]: Waiting for pending navigations...
+[1658754197.055][INFO]: Done waiting for pending navigations. Status: ok
+[1658754197.055][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE ClickElement
+[1658754197.058][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND FindElement {
+   &quot;using&quot;: &quot;xpath&quot;,
+   &quot;value&quot;: &quot;//div[@class='error-message-container error']/h3[contains(text(), 'user has been locked')]&quot;
+}
+[1658754197.058][INFO]: Waiting for pending navigations...
+[1658754197.058][INFO]: Done waiting for pending navigations. Status: ok
+[1658754197.066][INFO]: Waiting for pending navigations...
+[1658754197.067][INFO]: Done waiting for pending navigations. Status: ok
+[1658754197.067][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;99be5d80-6150-40d4-be07-548ffbfefdbd&quot;
+}
+[1658754197.070][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND GetElementText {
+   &quot;id&quot;: &quot;99be5d80-6150-40d4-be07-548ffbfefdbd&quot;
+}
+[1658754197.070][INFO]: Waiting for pending navigations...
+[1658754197.070][INFO]: Done waiting for pending navigations. Status: ok
+[1658754197.080][INFO]: Waiting for pending navigations...
+[1658754197.080][INFO]: Done waiting for pending navigations. Status: ok
+[1658754197.080][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE GetElementText &quot;Epic sadface: Sorry, this user has been locked out.&quot;
+[1658754197.088][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] COMMAND Quit {
+}
+[1658754197.123][INFO]: [a88e9e15fb0066b03bef7f27b25ed03e] RESPONSE Quit
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 54819
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1658754197.433][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] COMMAND InitSession {
+   &quot;capabilities&quot;: {
+      &quot;firstMatch&quot;: [ {
+         &quot;browserName&quot;: &quot;chrome&quot;,
+         &quot;goog:chromeOptions&quot;: {
+            &quot;args&quot;: [ &quot;--window-size=1920,1080&quot; ],
+            &quot;extensions&quot;: [  ]
+         }
+      } ]
+   },
+   &quot;desiredCapabilities&quot;: {
+      &quot;browserName&quot;: &quot;chrome&quot;,
+      &quot;goog:chromeOptions&quot;: {
+         &quot;args&quot;: [ &quot;--window-size=1920,1080&quot; ],
+         &quot;extensions&quot;: [  ]
+      }
+   }
+}
+[1658754197.436][INFO]: Populating Preferences file: {
+   &quot;alternate_error_pages&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;autofill&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;browser&quot;: {
+      &quot;check_default_browser&quot;: false
+   },
+   &quot;distribution&quot;: {
+      &quot;import_bookmarks&quot;: false,
+      &quot;import_history&quot;: false,
+      &quot;import_search_engine&quot;: false,
+      &quot;make_chrome_default_for_user&quot;: false,
+      &quot;skip_first_run_ui&quot;: true
+   },
+   &quot;dns_prefetching&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;profile&quot;: {
+      &quot;content_settings&quot;: {
+         &quot;pattern_pairs&quot;: {
+            &quot;https://*,*&quot;: {
+               &quot;media-stream&quot;: {
+                  &quot;audio&quot;: &quot;Default&quot;,
+                  &quot;video&quot;: &quot;Default&quot;
+               }
+            }
+         }
+      },
+      &quot;default_content_setting_values&quot;: {
+         &quot;geolocation&quot;: 1
+      },
+      &quot;default_content_settings&quot;: {
+         &quot;geolocation&quot;: 1,
+         &quot;mouselock&quot;: 1,
+         &quot;notifications&quot;: 1,
+         &quot;popups&quot;: 1,
+         &quot;ppapi-broker&quot;: 1
+      },
+      &quot;password_manager_enabled&quot;: false
+   },
+   &quot;safebrowsing&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;search&quot;: {
+      &quot;suggest_enabled&quot;: false
+   },
+   &quot;translate&quot;: {
+      &quot;enabled&quot;: false
+   }
+}
+[1658754197.437][INFO]: Populating Local State file: {
+   &quot;background_mode&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;ssl&quot;: {
+      &quot;rev_checking&quot;: {
+         &quot;enabled&quot;: false
+      }
+   }
+}
+[1658754197.438][INFO]: Launching chrome: &quot;C:\Program Files\Google\Chrome\Application\chrome.exe&quot; --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=&quot;C:\Users\kabai\AppData\Local\Temp\scoped_dir13184_1315705065&quot; --window-size=1920,1080 data:,
+[1658754197.899][INFO]: resolved localhost to [&quot;::1&quot;,&quot;127.0.0.1&quot;]
+[1658754197.910][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] RESPONSE InitSession {
+   &quot;capabilities&quot;: {
+      &quot;acceptInsecureCerts&quot;: false,
+      &quot;browserName&quot;: &quot;chrome&quot;,
+      &quot;browserVersion&quot;: &quot;103.0.5060.134&quot;,
+      &quot;chrome&quot;: {
+         &quot;chromedriverVersion&quot;: &quot;103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262})&quot;,
+         &quot;userDataDir&quot;: &quot;C:\\Users\\kabai\\AppData\\Local\\Temp\\scoped_dir13184_1315705065&quot;
+      },
+      &quot;goog:chromeOptions&quot;: {
+         &quot;debuggerAddress&quot;: &quot;localhost:51909&quot;
+      },
+      &quot;networkConnectionEnabled&quot;: false,
+      &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+      &quot;platformName&quot;: &quot;windows&quot;,
+      &quot;proxy&quot;: {
+      },
+      &quot;setWindowRect&quot;: true,
+      &quot;strictFileInteractability&quot;: false,
+      &quot;timeouts&quot;: {
+         &quot;implicit&quot;: 0,
+         &quot;pageLoad&quot;: 300000,
+         &quot;script&quot;: 30000
+      },
+      &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+      &quot;webauthn:extension:credBlob&quot;: true,
+      &quot;webauthn:extension:largeBlob&quot;: true,
+      &quot;webauthn:virtualAuthenticators&quot;: true
+   },
+   &quot;sessionId&quot;: &quot;9ae8ab47d7e3bc313ff091405dae8b08&quot;
+}
+Jul 25, 2022 9:03:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 25, 2022 9:03:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+[1658754197.935][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] COMMAND Navigate {
+   &quot;url&quot;: &quot;https://www.saucedemo.com/&quot;
+}
+[1658754197.935][INFO]: Waiting for pending navigations...
+[1658754197.936][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.045][INFO]: Waiting for pending navigations...
+[1658754198.278][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.278][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] RESPONSE Navigate
+[1658754198.282][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] COMMAND FindElement {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;#user\\-name&quot;
+}
+[1658754198.282][INFO]: Waiting for pending navigations...
+[1658754198.282][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.290][INFO]: Waiting for pending navigations...
+[1658754198.290][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.291][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;084c6cec-27c3-4dc4-aff6-40b7bd871d3f&quot;
+}
+[1658754198.293][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] COMMAND TypeElement {
+   &quot;id&quot;: &quot;084c6cec-27c3-4dc4-aff6-40b7bd871d3f&quot;,
+   &quot;text&quot;: &quot;standard_user&quot;,
+   &quot;value&quot;: [ &quot;s&quot;, &quot;t&quot;, &quot;a&quot;, &quot;n&quot;, &quot;d&quot;, &quot;a&quot;, &quot;r&quot;, &quot;d&quot;, &quot;_&quot;, &quot;u&quot;, &quot;s&quot;, &quot;e&quot;, &quot;r&quot; ]
+}
+[1658754198.293][INFO]: Waiting for pending navigations...
+[1658754198.294][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.340][INFO]: Waiting for pending navigations...
+[1658754198.342][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.342][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] RESPONSE TypeElement
+[1658754198.345][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] COMMAND FindElement {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;#password&quot;
+}
+[1658754198.345][INFO]: Waiting for pending navigations...
+[1658754198.345][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.352][INFO]: Waiting for pending navigations...
+[1658754198.353][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.353][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;b8ff08eb-dc26-43c4-a5ff-3dba835184b3&quot;
+}
+[1658754198.357][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] COMMAND TypeElement {
+   &quot;id&quot;: &quot;b8ff08eb-dc26-43c4-a5ff-3dba835184b3&quot;,
+   &quot;text&quot;: &quot;secret_sauce&quot;,
+   &quot;value&quot;: [ &quot;s&quot;, &quot;e&quot;, &quot;c&quot;, &quot;r&quot;, &quot;e&quot;, &quot;t&quot;, &quot;_&quot;, &quot;s&quot;, &quot;a&quot;, &quot;u&quot;, &quot;c&quot;, &quot;e&quot; ]
+}
+[1658754198.357][INFO]: Waiting for pending navigations...
+[1658754198.359][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.391][INFO]: Waiting for pending navigations...
+[1658754198.392][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.392][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] RESPONSE TypeElement
+[1658754198.395][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] COMMAND FindElement {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;#login\\-button&quot;
+}
+[1658754198.395][INFO]: Waiting for pending navigations...
+[1658754198.395][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.402][INFO]: Waiting for pending navigations...
+[1658754198.403][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.403][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;c6cf582e-ab21-4c56-9987-5839c1ae6349&quot;
+}
+[1658754198.405][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] COMMAND ClickElement {
+   &quot;id&quot;: &quot;c6cf582e-ab21-4c56-9987-5839c1ae6349&quot;
+}
+[1658754198.405][INFO]: Waiting for pending navigations...
+[1658754198.406][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.456][INFO]: Waiting for pending navigations...
+[1658754198.459][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.459][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] RESPONSE ClickElement
+[1658754198.462][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] COMMAND FindElements {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;#shopping_cart_container&quot;
+}
+[1658754198.462][INFO]: Waiting for pending navigations...
+[1658754198.462][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.469][INFO]: Waiting for pending navigations...
+[1658754198.469][INFO]: Done waiting for pending navigations. Status: ok
+[1658754198.469][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] RESPONSE FindElements [ {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;f2ccbbf3-28f2-4416-8d48-b9d3d57c3740&quot;
+} ]
+[1658754198.476][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] COMMAND Quit {
+}
+[1658754198.516][INFO]: [9ae8ab47d7e3bc313ff091405dae8b08] RESPONSE Quit
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 58694
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1658754198.797][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND InitSession {
+   &quot;capabilities&quot;: {
+      &quot;firstMatch&quot;: [ {
+         &quot;browserName&quot;: &quot;chrome&quot;,
+         &quot;goog:chromeOptions&quot;: {
+            &quot;args&quot;: [ &quot;--window-size=1920,1080&quot; ],
+            &quot;extensions&quot;: [  ]
+         }
+      } ]
+   },
+   &quot;desiredCapabilities&quot;: {
+      &quot;browserName&quot;: &quot;chrome&quot;,
+      &quot;goog:chromeOptions&quot;: {
+         &quot;args&quot;: [ &quot;--window-size=1920,1080&quot; ],
+         &quot;extensions&quot;: [  ]
+      }
+   }
+}
+[1658754198.801][INFO]: Populating Preferences file: {
+   &quot;alternate_error_pages&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;autofill&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;browser&quot;: {
+      &quot;check_default_browser&quot;: false
+   },
+   &quot;distribution&quot;: {
+      &quot;import_bookmarks&quot;: false,
+      &quot;import_history&quot;: false,
+      &quot;import_search_engine&quot;: false,
+      &quot;make_chrome_default_for_user&quot;: false,
+      &quot;skip_first_run_ui&quot;: true
+   },
+   &quot;dns_prefetching&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;profile&quot;: {
+      &quot;content_settings&quot;: {
+         &quot;pattern_pairs&quot;: {
+            &quot;https://*,*&quot;: {
+               &quot;media-stream&quot;: {
+                  &quot;audio&quot;: &quot;Default&quot;,
+                  &quot;video&quot;: &quot;Default&quot;
+               }
+            }
+         }
+      },
+      &quot;default_content_setting_values&quot;: {
+         &quot;geolocation&quot;: 1
+      },
+      &quot;default_content_settings&quot;: {
+         &quot;geolocation&quot;: 1,
+         &quot;mouselock&quot;: 1,
+         &quot;notifications&quot;: 1,
+         &quot;popups&quot;: 1,
+         &quot;ppapi-broker&quot;: 1
+      },
+      &quot;password_manager_enabled&quot;: false
+   },
+   &quot;safebrowsing&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;search&quot;: {
+      &quot;suggest_enabled&quot;: false
+   },
+   &quot;translate&quot;: {
+      &quot;enabled&quot;: false
+   }
+}
+[1658754198.802][INFO]: Populating Local State file: {
+   &quot;background_mode&quot;: {
+      &quot;enabled&quot;: false
+   },
+   &quot;ssl&quot;: {
+      &quot;rev_checking&quot;: {
+         &quot;enabled&quot;: false
+      }
+   }
+}
+[1658754198.803][INFO]: Launching chrome: &quot;C:\Program Files\Google\Chrome\Application\chrome.exe&quot; --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=&quot;C:\Users\kabai\AppData\Local\Temp\scoped_dir19152_610806302&quot; --window-size=1920,1080 data:,
+[1658754199.266][INFO]: resolved localhost to [&quot;::1&quot;,&quot;127.0.0.1&quot;]
+[1658754199.274][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE InitSession {
+   &quot;capabilities&quot;: {
+      &quot;acceptInsecureCerts&quot;: false,
+      &quot;browserName&quot;: &quot;chrome&quot;,
+      &quot;browserVersion&quot;: &quot;103.0.5060.134&quot;,
+      &quot;chrome&quot;: {
+         &quot;chromedriverVersion&quot;: &quot;103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262})&quot;,
+         &quot;userDataDir&quot;: &quot;C:\\Users\\kabai\\AppData\\Local\\Temp\\scoped_dir19152_610806302&quot;
+      },
+      &quot;goog:chromeOptions&quot;: {
+         &quot;debuggerAddress&quot;: &quot;localhost:51930&quot;
+      },
+      &quot;networkConnectionEnabled&quot;: false,
+      &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+      &quot;platformName&quot;: &quot;windows&quot;,
+      &quot;proxy&quot;: {
+      },
+      &quot;setWindowRect&quot;: true,
+      &quot;strictFileInteractability&quot;: false,
+      &quot;timeouts&quot;: {
+         &quot;implicit&quot;: 0,
+         &quot;pageLoad&quot;: 300000,
+         &quot;script&quot;: 30000
+      },
+      &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+      &quot;webauthn:extension:credBlob&quot;: true,
+      &quot;webauthn:extension:largeBlob&quot;: true,
+      &quot;webauthn:virtualAuthenticators&quot;: true
+   },
+   &quot;sessionId&quot;: &quot;a8a2fbc2f6c64c0d443bb30c9d77f47d&quot;
+}
+Jul 25, 2022 9:03:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 25, 2022 9:03:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+[1658754199.296][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND Navigate {
+   &quot;url&quot;: &quot;https://www.saucedemo.com/&quot;
+}
+[1658754199.296][INFO]: Waiting for pending navigations...
+[1658754199.299][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.449][INFO]: Waiting for pending navigations...
+[1658754199.625][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.625][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE Navigate
+[1658754199.628][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND FindElement {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;#user\\-name&quot;
+}
+[1658754199.628][INFO]: Waiting for pending navigations...
+[1658754199.629][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.637][INFO]: Waiting for pending navigations...
+[1658754199.638][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.638][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;050d1df0-09be-4169-aee2-1dfbd4ff428f&quot;
+}
+[1658754199.641][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND TypeElement {
+   &quot;id&quot;: &quot;050d1df0-09be-4169-aee2-1dfbd4ff428f&quot;,
+   &quot;text&quot;: &quot;standard_user&quot;,
+   &quot;value&quot;: [ &quot;s&quot;, &quot;t&quot;, &quot;a&quot;, &quot;n&quot;, &quot;d&quot;, &quot;a&quot;, &quot;r&quot;, &quot;d&quot;, &quot;_&quot;, &quot;u&quot;, &quot;s&quot;, &quot;e&quot;, &quot;r&quot; ]
+}
+[1658754199.641][INFO]: Waiting for pending navigations...
+[1658754199.642][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.691][INFO]: Waiting for pending navigations...
+[1658754199.693][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.693][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE TypeElement
+[1658754199.696][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND FindElement {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;#password&quot;
+}
+[1658754199.696][INFO]: Waiting for pending navigations...
+[1658754199.696][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.701][INFO]: Waiting for pending navigations...
+[1658754199.702][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.702][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;12c8375c-d242-44a0-aaec-49fb6b5a892c&quot;
+}
+[1658754199.705][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND TypeElement {
+   &quot;id&quot;: &quot;12c8375c-d242-44a0-aaec-49fb6b5a892c&quot;,
+   &quot;text&quot;: &quot;sssss&quot;,
+   &quot;value&quot;: [ &quot;s&quot;, &quot;s&quot;, &quot;s&quot;, &quot;s&quot;, &quot;s&quot; ]
+}
+[1658754199.705][INFO]: Waiting for pending navigations...
+[1658754199.705][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.742][INFO]: Waiting for pending navigations...
+[1658754199.743][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.743][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE TypeElement
+[1658754199.745][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND FindElement {
+   &quot;using&quot;: &quot;css selector&quot;,
+   &quot;value&quot;: &quot;#login\\-button&quot;
+}
+[1658754199.745][INFO]: Waiting for pending navigations...
+[1658754199.749][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.756][INFO]: Waiting for pending navigations...
+[1658754199.756][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.756][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;30694081-e2ba-431f-a7ef-c447047a153a&quot;
+}
+[1658754199.759][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND ClickElement {
+   &quot;id&quot;: &quot;30694081-e2ba-431f-a7ef-c447047a153a&quot;
+}
+[1658754199.759][INFO]: Waiting for pending navigations...
+[1658754199.759][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.798][INFO]: Waiting for pending navigations...
+[1658754199.798][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.798][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE ClickElement
+[1658754199.801][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND FindElement {
+   &quot;using&quot;: &quot;xpath&quot;,
+   &quot;value&quot;: &quot;//div[@class='error-message-container error']/h3[contains(text(), 'Username and password do not match')]&quot;
+}
+[1658754199.801][INFO]: Waiting for pending navigations...
+[1658754199.802][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.809][INFO]: Waiting for pending navigations...
+[1658754199.810][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.810][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE FindElement {
+   &quot;element-6066-11e4-a52e-4f735466cecf&quot;: &quot;a73c90ac-df38-4c81-a8e8-6db3088be571&quot;
+}
+[1658754199.812][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND GetElementText {
+   &quot;id&quot;: &quot;a73c90ac-df38-4c81-a8e8-6db3088be571&quot;
+}
+[1658754199.812][INFO]: Waiting for pending navigations...
+[1658754199.813][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.821][INFO]: Waiting for pending navigations...
+[1658754199.822][INFO]: Done waiting for pending navigations. Status: ok
+[1658754199.822][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE GetElementText &quot;Epic sadface: Username and password do not match any user in this service&quot;
+[1658754199.824][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] COMMAND Quit {
+}
+[1658754199.866][INFO]: [a8a2fbc2f6c64c0d443bb30c9d77f47d] RESPONSE Quit
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at Jul 25, 2022, 9:03:20 AM</p>
+</div>
+</div>
+</body>
+</html>
